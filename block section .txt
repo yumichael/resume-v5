@@ -1,0 +1,2 @@
+4 company position location timespan
+2 position timespan

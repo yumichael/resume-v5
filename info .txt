@@ -1,0 +1,76 @@
+{head}
+Michael Y. Yu
+	502-200 Elm Street, Toronto ON M5T1K4
+	647 467 2357
+	myy2357@gmail.com
+	linkedin.com/in/m2357
+	github.com/yumichael
+
+{section}
+Education
+[]
+	University of Toronto
+	M.Sc. Mathematics () GRE Math Subject Test score: 900 --- 97 percentile
+	Toronto, ON
+	Sep 2016 -- Sep 2017
+		Predicted the sign of future 3 days VIX price change with 60\% accuracy in thesis (see Projects section)
+		Sample graduate courses from all taken up to date: real analysis, algebra, topology, probability, computability and logic, quantum mechanics, set theory, graph theory, topic courses: number theory, geometry, ergodic theory
+[]
+	University of Toronto
+	H.B.Sc. Mathematics Specialist and Computer Science Major () CGPA: 3.87/4
+	Toronto, ON
+	Sep 2012 -- Apr 2016
+		Received \$40,358 in academic awards and \$19,000 in NSERC research grants
+		Finished 5/7 Math Ph.D. course requirements with 91.4 average; have scored 30 on Putnam
+		Completed the extra Computer Science Major on top of 1 required Specialist
+
+{section}
+Experience
+[]
+	University of Toronto Mathematics Department
+	NSERC Undergraduate Researcher
+	Toronto, ON
+	May -- Sep 2015, Apr -- Aug 2014
+		2015 topic: the modular representation theory of the symmetric groups
+		2014 topic: basic algebraic number theory
+[]
+	University of Toronto Mathematics Department
+	Teaching Assistant for Calculus Courses
+	Toronto, ON
+	Sep -- Dec 2016, Sep -- Apr 2014, 2015
+		Taught tutorial classes: explaining concepts and taking up problems, creating and marking quizzes
+[]
+	A Thinking Ape Inc. () mobile games company with millions of installs on 4\ding{73} games
+	Software Developer Engineer, Intern
+	Vancouver, BC
+	Apr -- Aug 2013
+		Designed and implemented account management UI on iOS and Android for new user ID system
+		Devised new algorithm for matching \(\sim\) 500 player teams in battle on Django server backend
+		Collaborated with product manager to determine match metrics and created over 200\% more quality matches
+[]
+	BTI Systems Inc. () cloud and metro networking company
+	Web Developer, Intern
+	Ottawa, ON
+	Feb -- Jun 2012
+		Created web application for visualizing bug statistics using jQuery backed by PHP and SQL
+
+{section}
+Projects
+[]
+	Predicting short-term movement direction of the volatility index (VIX) () M.Sc. thesis
+	Jan -- Sep 2017
+		Determined feasibility of different machine learning approaches and engineered various features
+		Predicted the sign of 3 days return with 60\% accuracy on test data of latest 2 years with XGBoost based model
+[]
+	Grade summary web application for course I TAed
+	Nov 2016
+		Flask web app that shows grade histograms across different tutorial sections from web scraped data
+[]
+	An original image recognition experiment on MNIST () no success
+	May -- Aug 2016
+		Purely unsupervised learning of image classes through ``convolutional \(k\)-NN'' architecture with Theano
+[]
+	Raytracer 3D scene renderer () graphics course project
+	Apr 2016
+		C++ raytracing engine that uses distributed ray tracing to render realistic lighting
+
