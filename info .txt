@@ -1,10 +1,10 @@
 {head}
-Michael Y. Yu
+Michael Y. Yu <> https://github.com/yumichael/resume-v5
 	502-200 Elm Street, Toronto ON M5T1K4
 	647 467 2357
-	myy2357@gmail.com
-	linkedin.com/in/m2357
-	github.com/yumichael
+	myy2357@gmail.com <> mailto:myy2357@gmail.com
+	linkedin.com/in/m2357 <> https://www.linkedin.com/in/m2357/
+	github.com/yumichael <> https://github.com/yumichael
 
 {section}
 Education
@@ -28,7 +28,7 @@ Education
 Experience
 []
 	University of Toronto Mathematics Department
-	NSERC Undergraduate Researcher
+	NSERC Undergraduate Researcher <> http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp
 	Toronto, ON
 	May -- Sep 2015, Apr -- Aug 2014
 		2015 topic: the modular representation theory of the symmetric groups
@@ -40,15 +40,15 @@ Experience
 	Sep -- Dec 2016, Sep -- Apr 2014, 2015
 		Taught tutorial classes: explaining concepts and taking up problems, creating and marking quizzes
 []
-	A Thinking Ape Inc. () mobile games company with millions of installs on 4\ding{73} games
+	A Thinking Ape Inc. () mobile games company with millions of installs on 4\ding{73} games <> http://www.athinkingape.com/
 	Software Developer Engineer, Intern
 	Vancouver, BC
 	Apr -- Aug 2013
 		Designed and implemented account management UI on iOS and Android for new user ID system
-		Devised new algorithm for matching \(\sim\) 500 player teams in battle on Django server backend
+		Devised new algorithm for matching \(\sim\)500 player teams in battle on Django server backend
 		Collaborated with product manager to determine match metrics and created over 200\% more quality matches
 []
-	BTI Systems Inc. () cloud and metro networking company
+	BTI Systems Inc. () cloud and metro networking company <> http://www.juniper.net/us/en/dm/bti/
 	Web Developer, Intern
 	Ottawa, ON
 	Feb -- Jun 2012
@@ -62,15 +62,15 @@ Projects
 		Determined feasibility of different machine learning approaches and engineered various features
 		Predicted the sign of 3 days return with 60\% accuracy on test data of latest 2 years with XGBoost based model
 []
-	Grade summary web application for course I TAed
+	Grade summary web application () helpful tool for course I TAed <> https://github.com/yumichael/blackboardlearn-statsview
 	Nov 2016
 		Flask web app that shows grade histograms across different tutorial sections from web scraped data
 []
-	An original image recognition experiment on MNIST () no success
+	Original image recognition experiment on MNIST () no success
 	May -- Aug 2016
 		Purely unsupervised learning of image classes through ``convolutional \(k\)-NN'' architecture with Theano
 []
-	Raytracer 3D scene renderer () graphics course project
+	Raytracer 3D scene renderer () graphics course project <> https://github.com/yumichael/raytrace
 	Apr 2016
 		C++ raytracing engine that uses distributed ray tracing to render realistic lighting
 
