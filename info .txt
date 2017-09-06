@@ -14,7 +14,7 @@ Education
 	Toronto, ON
 	Sep 2016 -- Sep 2017
 		Predicted the sign of future 3 days VIX price change with 60\% accuracy in thesis (see Projects section)
-		Sample graduate courses from all taken up to date: real analysis, algebra, topology, probability, computability and logic, quantum mechanics, set theory, graph theory, topic courses: number theory, geometry, ergodic theory
+		Sample graduate courses from all taken up to date: real analysis, algebra, topology, probability, quantum mechanics, computability and logic, set theory, graph theory, topic courses: number theory, ergodic theory
 []
 	University of Toronto
 	H.B.Sc. Mathematics Specialist and Computer Science Major () CGPA: 3.87/4
@@ -59,7 +59,7 @@ Projects
 []
 	Predicting short-term movement direction of the volatility index (VIX) () M.Sc. thesis
 	Jan -- Sep 2017
-		Determined feasibility of different machine learning approaches and engineered various features
+		Determined feasibility of different machine learning approaches and engineered various features using Python
 		Predicted the sign of 3 days return with 60\% accuracy on test data of latest 2 years with XGBoost based model
 []
 	Grade summary web application () helpful tool for course I TAed <> https://github.com/yumichael/blackboardlearn-statsview

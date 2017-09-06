@@ -1,6 +1,12 @@
 
 \documentclass[10pt,letterpaper]{article}
 \usepackage[margin=0.75in]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[stretch=10]{microtype}
+\usepackage{tgpagella}
+
 \usepackage{pifont}
 \usepackage{hyperref}
 \usepackage{titlesec} % Used to customize the \section command
@@ -12,7 +18,7 @@
 \newcommand*\textul[1]{\underline{\smash{#1}}}
 
 \newcommand*\company[1]{\textbf{#1}}
-\newcommand*\position[1]{\textmb{#1}}
+\newcommand*\position[1]{\textit{#1}}
 \newcommand*\location\company
 \newcommand*\timespan\position
 
@@ -30,7 +36,7 @@
 \position{M.Sc. Mathematics} (GRE Math Subject Test score: 900 --- 97 percentile)\hfill\timespan{Sep 2016 -- Sep 2017}
 \begin{itemize}
 \item Predicted the sign of future 3 days VIX price change with 60\% accuracy in thesis (see Projects section)
-\item Sample graduate courses from all taken up to date: real analysis, algebra, topology, probability, computability and logic, quantum mechanics, set theory, graph theory, topic courses: number theory, geometry, ergodic theory
+\item Sample graduate courses from all taken up to date: real analysis, algebra, topology, probability, quantum mechanics, computability and logic, set theory, graph theory, topic courses: number theory, ergodic theory
 \end{itemize}
 \company{University of Toronto}\hfill\location{Toronto, ON}\\
 \position{H.B.Sc. Mathematics Specialist and Computer Science Major} (CGPA: 3.87/4)\hfill\timespan{Sep 2012 -- Apr 2016}
@@ -66,7 +72,7 @@
 \section*{Projects}
 \position{Predicting short-term movement direction of the volatility index (VIX)} (M.Sc. thesis)\hfill\timespan{Jan -- Sep 2017}
 \begin{itemize}
-\item Determined feasibility of different machine learning approaches and engineered various features
+\item Determined feasibility of different machine learning approaches and engineered various features using Python
 \item Predicted the sign of 3 days return with 60\% accuracy on test data of latest 2 years with XGBoost based model
 \end{itemize}
 \position{\href{https://github.com/yumichael/blackboardlearn-statsview}{Grade summary web application}} (helpful tool for course I TAed)\hfill\timespan{Nov 2016}
