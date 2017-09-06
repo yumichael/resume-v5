@@ -1,7 +1,7 @@
 {head}
 Michael Y. Yu <> https://github.com/yumichael/resume-v5
 	502-200 Elm Street, Toronto ON M5T1K4
-	647 467 2357
+	(647) 467-2357
 	myy2357@gmail.com <> mailto:myy2357@gmail.com
 	linkedin.com/in/m2357 <> https://www.linkedin.com/in/m2357/
 	github.com/yumichael <> https://github.com/yumichael
