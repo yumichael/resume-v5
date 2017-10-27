@@ -2,6 +2,7 @@
 \documentclass[10pt,letterpaper]{article}
 \usepackage[margin=0.75in]{geometry}
 
+\usepackage{fontawesome}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[stretch=10]{microtype}
@@ -9,10 +10,13 @@
 
 \usepackage{pifont}
 \usepackage{hyperref}
+\usepackage{xspace}
 \usepackage{titlesec} % Used to customize the \section command
-\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] %
+\titleformat{\section}{\vspace{-1.5pt}\Large\scshape\raggedright}{}{0em}{}[\titlerule] %
 \usepackage{enumitem}
-\setitemize{itemsep=3pt,topsep=5pt,parsep=0pt,partopsep=0pt}
+%\setitemize{itemsep=3pt,topsep=5pt,parsep=0pt,partopsep=0pt}
+%\setitemize{itemsep=1pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+\setitemize{itemsep=1pt,topsep=2pt,parsep=0pt,partopsep=0pt}
 
 \newcommand*\textmb[1]{\fontseries{b}\selectfont#1\fontseries{m}\selectfont}
 \newcommand*\textul[1]{\underline{\smash{#1}}}
@@ -21,6 +25,7 @@
 \newcommand*\position[1]{\textit{#1}}
 \newcommand*\location\company
 \newcommand*\timespan\position
+\newcommand*\kw\textit
 
 \begin{document}
 \pagestyle{empty}
@@ -31,60 +36,62 @@
 
 \href{https://www.linkedin.com/in/m2357/}{linkedin.com/in/m2357}\ \ \textbullet\ \ \href{https://github.com/yumichael}{github.com/yumichael}
 \end{center}
-\section*{Education}
-\company{University of Toronto}\hfill\location{Toronto, ON}\\
-\position{M.Sc. Mathematics} (GRE Math Subject Test score: 900 --- 97 percentile)\hfill\timespan{Sep 2016 -- Sep 2017}
-\begin{itemize}
-\item Predicted the sign of future 3 days VIX price change with 60\% accuracy in thesis (see Projects section)
-\item Sample graduate courses from all taken up to date: real analysis, algebra, topology, probability, quantum mechanics, computability and logic, set theory, graph theory, topic courses: number theory, ergodic theory
-\end{itemize}
-\company{University of Toronto}\hfill\location{Toronto, ON}\\
-\position{H.B.Sc. Mathematics Specialist and Computer Science Major} (CGPA: 3.87/4)\hfill\timespan{Sep 2012 -- Apr 2016}
-\begin{itemize}
-\item Received \$31,866 in academic awards and \$19,000 in NSERC research grants
-\item Finished 5/7 Math Ph.D. course requirements with 91.4 average; have scored 30 on Putnam
-\item Completed the extra Computer Science Major on top of 1 required Specialist
-\end{itemize}
+[\textbf{Skills}] very proficient: \kw{Python}. Knows well: \kw{C}, \kw{C++}, \kw{NumPy}. Experience with: \kw{Javascript}, \kw{Java}, \kw{Objective-C}, \kw{HTML}, \kw{SQL}. Used tools and packages: \kw{Jupyter}, \kw{XGBoost}, \kw{scikit-learn}, \kw{Pandas}, \kw{Theano}, \kw{Visual Studio}, \kw{Django}, \kw{Flask}, \kw{Heroku}, \kw{EC2}.
+
 \section*{Experience}
-\company{University of Toronto Mathematics Department}\hfill\location{Toronto, ON}\\
-\position{\href{http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp}{NSERC Undergraduate Researcher}}\hfill\timespan{May -- Sep 2015, Apr -- Aug 2014}
+\company{University of Toronto}\hfill\location{Toronto, ON}\\
+\position{M.Sc. Machine Learning Researcher}\hfill\timespan{Jan -- Sep 2017}
 \begin{itemize}
-\item 2015 topic: the modular representation theory of the symmetric groups
-\item 2014 topic: basic algebraic number theory
+\item Successfully predicted the direction of the volatility index (VIX) price movement over a week (62\% accuracy)
+\item Created Python framework for machine learning workflow: process and clean time series data (Pandas, NumPy), experimenting with feature sets and prediction targets, and hyperparameter search saves file system
+\item Researched how to tune XGBoost hyperparameters, tested generating different feature sets for XGBoost leverage
+\item Used \(4\)-fold cross validation to ensure statistically valid model for test data of unseen latest 2 years
 \end{itemize}
-\company{University of Toronto Mathematics Department}\hfill\location{Toronto, ON}\\
-\position{Teaching Assistant for Calculus Courses}\hfill\timespan{Sep -- Dec 2016, Sep -- Apr 2014, 2015}
+\company{University of Toronto}\hfill\location{Toronto, ON}\\
+\position{Teaching Assistant for Calculus Classes}\hfill\timespan{Sep -- Apr 2014, 2015, Sep -- Dec 2016}
 \begin{itemize}
-\item Taught tutorial classes: explaining concepts and taking up problems, creating and marking quizzes
+\item Led tutorials: explained problem solutions, created and marked quizzes; tutored in one-on-one help center
 \end{itemize}
-\company{\href{http://www.athinkingape.com/}{A Thinking Ape Inc.}} (mobile games company with millions of installs on 4\ding{73} games)\hfill\location{Vancouver, BC}\\
+\company{University of Toronto}\hfill\location{Toronto, ON}\\
+\position{\href{http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp}{NSERC Undergraduate Pure Math Researcher}}\hfill\timespan{Apr -- Aug 2014, May -- Sep 2015}
+\begin{itemize}
+\item Accounted for all ordinary representations of symmetric groups combinatorially via Young diagrams
+\item Learned ring structures prerequisite to representation of symmetric groups over a positive characteristic field
+\item Independently found increments of appropriate books to aid in understanding of difficult abstract theory
+\end{itemize}
+\company{\href{http://www.athinkingape.com/}{A Thinking Ape Inc.}} (mobile games company with millions of installs on 4 stars games)\hfill\location{Vancouver, BC}\\
 \position{Software Developer Engineer, Intern}\hfill\timespan{Apr -- Aug 2013}
 \begin{itemize}
-\item Designed and implemented account management UI on iOS and Android for new user ID system
-\item Devised new algorithm for matching \(\sim\)500 player teams in battle on Django server backend
-\item Collaborated with product manager to determine match metrics and created over 200\% more quality matches
+\item Given responsibility to work on on the \#1 revenue generating product of the company
+\item Designed and implemented account management UI on iOS (Objective-C) and Android (Java) for new user ID system that allowed tracking the same player on multiple devices via one or more social media accounts
+\item Devised new algorithm (solving a challenging graph matching problem) for matching \(\sim\)500 player teams in battle on Django (Python) backend, increasing player satisfaction over 200\% according to product manager
 \end{itemize}
 \company{\href{http://www.juniper.net/us/en/dm/bti/}{BTI Systems Inc.}} (cloud and metro networking company)\hfill\location{Ottawa, ON}\\
 \position{Web Developer, Intern}\hfill\timespan{Feb -- Jun 2012}
 \begin{itemize}
-\item Created web application for visualizing bug statistics using jQuery backed by PHP and SQL
+\item Created web app for manager to visualize bug statistics using jQuery and server side PHP and SQL queries
 \end{itemize}
-\section*{Projects}
-\position{Predicting short-term movement direction of the volatility index (VIX)} (M.Sc. thesis)\hfill\timespan{Jan -- Sep 2017}
+\section*{Notable Projects}
+\position{Programming contest participation / coding interview practice}\hfill\timespan{2011 -- 2013, 2017 -- ongoing}
 \begin{itemize}
-\item Determined feasibility of different machine learning approaches and engineered various features using Python
-\item Predicted the sign of 3 days return with 60\% accuracy on test data of latest 2 years with XGBoost based model
+\item Optimal Python or C++ solutions to LeetCode Hard problems, Bloomberg CodeCon, Google Code Jam, \textit{etc.}
 \end{itemize}
-\position{\href{https://github.com/yumichael/blackboardlearn-statsview}{Grade summary web application}} (helpful tool for course I TAed)\hfill\timespan{Nov 2016}
+\position{\href{https://github.com/yumichael/raytrace}{Raytracer 3D scene renderer \faGithub\,\faExternalLink\xspace}} (graduate graphics course project)\hfill\timespan{Apr 2016}
 \begin{itemize}
-\item Flask web app that shows grade histograms across different tutorial sections from web scraped data
+\item Profiled with Visual Studio to identify and fix inefficiency in starter utility code to run 10\(\times\) faster
+\item Used C++ to render realistic lighting in a beautiful anti-aliased full HD image, coded in just 5 days
 \end{itemize}
-\position{Original image recognition experiment on MNIST} (no success)\hfill\timespan{May -- Aug 2016}
+\section*{Education}
 \begin{itemize}
-\item Purely unsupervised learning of image classes through ``convolutional \(k\)-NN'' architecture with Theano
+\item \textit{\$40,358 University of Toronto academic performance scholarships, \$36,500 NSERC research grant awards}
 \end{itemize}
-\position{\href{https://github.com/yumichael/raytrace}{Raytracer 3D scene renderer}} (graphics course project)\hfill\timespan{Apr 2016}
+\company{University of Toronto}\hfill\location{Toronto, ON}\\
+\position{M.Sc. Mathematics} (GRE Math Subject Test score: 900 --- 97 percentile)\hfill\timespan{Sep 2016 -- Nov 2017}
+\\
+\company{University of Toronto}\hfill\location{Toronto, ON}\\
+\position{H.B.Sc. Mathematics Specialist and Computer Science Major} (CGPA: 3.87/4)\hfill\timespan{Sep 2012 -- Jun 2016}
 \begin{itemize}
-\item C++ raytracing engine that uses distributed ray tracing to render realistic lighting
+\item Finished 5 math graduate core courses (Ph.D. requires 7) with 91.4 average in undergrad; scored 30 on Putnam
+\item Took university level algo class in grade 12; took enriched level algorithms at UofT, 95 average across 3 courses
 \end{itemize}
 \end{document}
