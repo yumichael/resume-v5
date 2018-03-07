@@ -12,15 +12,15 @@ Michael Y. Yu <> https://github.com/yumichael/resume-v5
 {section}
 Education
 []
-	University of Toronto
-	M.Sc. Mathematics () GRE Math Subject Test score: 900 --- 97 percentile
+	University of Toronto <> https://www.utoronto.ca/
+	M.Sc. Mathematics () GRE Mathematics Subject Test score: 900 --- 97 percentile
 	Toronto, ON
 	Sep 2016 -- Nov 2017
 []
-	H.B.Sc. Mathematics Specialist and Computer Science Major () CGPA: 3.87/4
+	H.B.Sc. \href{http://calendar.artsci.utoronto.ca/crs_mat.htm\#ASSPE1165}{Mathematics Specialist} and Computer Science Major () CGPA: 3.87/4
 	Sep 2012 -- Jun 2016
 		Predicted the sign of future short term VIX price change with 62\% accuracy in M.Sc. thesis (see Projects section)
-		Received \$40,358 in academic awards and \$36,500 in NSERC research grants
+		Received \$40,358 in academic awards and \$36,500 in \href{http://www.nserc-crsng.gc.ca/index_eng.asp}{NSERC} research grants
 		Finished Ph.D. course requirements (5/7 courses completed as undergrad) with A+ average
 		Completed the extra Computer Science Major on top of 1 required Specialist for undergraduate degree
 
@@ -40,11 +40,11 @@ Experience
 		2015 topic: representation theory of the symmetric groups and how things change when characteristic > 0
 		2014 topic: some introductory level algebraic number theory readings
 []
-	A Thinking Ape Inc. () mobile games company with millions of installs on 4 stars games <> http://www.athinkingape.com/
+	A Thinking Ape Inc. () Y Combinator backed social-mobile games company; millions of installs <> http://www.athinkingape.com/
 	Software Developer Engineer, Intern
 	Vancouver, BC
 	Apr -- Aug 2013
-		Full-stack development on main product in this already profitable <20 engineers start-up
+		Full-stack development on main product line of games at this already profitable <20 engineers start-up
 		Designed and implemented account management UI on iOS (Objective-C) and Android (Java) for new user ID system which tracked the same player on multiple devices via Facebook or email
 		Devised new algorithm for matching \(\sim\)500 player teams in battle on Django (Python) server backend
 		Collaborated with product manager to determine match metrics and created over 200\% more quality matches
@@ -58,12 +58,12 @@ Experience
 {section}
 Projects
 []
-	G-Research Financial Forecasting Challenge () \$30,000 prize Kaggle style data science competition
+	G-Research Financial Forecasting Challenge () \$30,000 prize Kaggle style data science competition <> https://financialforecasting.gresearch.co.uk/
 	Feb -- Apr 2018
-		Currently 16\textsuperscript{th} / 259. First place explains 71\% of target's variance, mine explains 70\%, median explains 59\%.
+		Currently 16\textsuperscript{th} / 259; first place explains 71\% of target's variance, mine explains 70\%, median explains 59\%
 		//Researching matrix factorization techniques to generate features to improve current XGBoost model
 []
-	Predicting short-term movement direction of the volatility index (VIX) () M.Sc. thesis
+	Predicting short-term movement direction of the volatility index (VIX) () M.Sc. thesis <> https://tspace.library.utoronto.ca/bitstream/1807/79328/3/Yu_Michael_Y_201711_MSc_thesis.pdf
 	Jan -- Sep 2017
 		Determined feasibility of machine learning approaches and crafted various features for XGBoost in Python
 		Predicted the sign of 1--6 days return, with 55\%--65\% accuracy in specific cases, on test data of latest 2 years
@@ -75,7 +75,7 @@ Projects
 	Raytracer 3D scene renderer () graphics course project <> https://github.com/yumichael/raytrace
 	Apr 2016
 		C++ raytracing engine that uses ``distributed ray tracing'' to render realistic lighting
-		Profiled with Visual Studio to identify and fix inefficiency in starter utility code to run 10\(\times\) faster
+		Profiled with Visual Studio to identify a caching opportunity in starter matrix utility code to run 10\(\times\) faster
 []
 	Putnam Competition () famous undergraduate level mathematics competition where the median score is 1
 	Dec 2013
