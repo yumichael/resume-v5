@@ -1,91 +1,82 @@
 {head}
 Michael Y. Yu <> https://github.com/yumichael/resume-v5
-	502-200 Elm Street, Toronto ON M5T1K4
-	(647) 467-2357
+	214 Asturcon Street, Ottawa ON K2V0B1
+	+1 (647) 467-2357
 	myy2357@gmail.com <> mailto:myy2357@gmail.com
 	linkedin.com/in/m2357 <> https://www.linkedin.com/in/m2357/
 	github.com/yumichael <> https://github.com/yumichael
 
 {float}
-[\textbf{Skills}] very proficient: \kw{Python}. Knows well: \kw{C}, \kw{C++}, \kw{NumPy}. Experience with: \kw{Javascript}, \kw{Java}, \kw{Objective-C}, \kw{HTML}, \kw{SQL}. Used tools and packages: \kw{Jupyter}, \kw{XGBoost}, \kw{scikit-learn}, \kw{Pandas}, \kw{Theano}, \kw{Visual Studio}, \kw{Django}, \kw{Flask}, \kw{Heroku}, \kw{EC2}.
-
-{section}
-Experience
-[]
-	University of Toronto
-	M.Sc. Machine Learning Researcher
-	Toronto, ON
-	Jan -- Sep 2017
-		Successfully predicted the direction of the volatility index (VIX) price movement over a week (62\% accuracy)
-		Created Python framework for machine learning workflow: process and clean time series data (Pandas, NumPy), experimenting with feature sets and prediction targets, and hyperparameter search saves file system
-		Researched how to tune XGBoost hyperparameters, tested generating different feature sets for XGBoost leverage
-		Used \(4\)-fold cross validation to ensure statistically valid model for test data of unseen latest 2 years
-[]
-	University of Toronto
-	Teaching Assistant for Calculus Classes
-	Toronto, ON
-	Sep -- Apr 2014, 2015, Sep -- Dec 2016
-		Led tutorials: explained problem solutions, created and marked quizzes; tutored in one-on-one help center
-[]
-	University of Toronto 
-	NSERC Undergraduate Pure Math Researcher <> http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp
-	Toronto, ON
-	Apr -- Aug 2014, May -- Sep 2015
-		//2015: modular representation of symmetric groups. 2014: introductory algebraic number theory.
-		Accounted for all ordinary representations of symmetric groups combinatorially via Young diagrams
-		Learned ring structures prerequisite to representation of symmetric groups over a positive characteristic field
-		Independently found increments of appropriate books to aid in understanding of difficult abstract theory 
-[]
-	A Thinking Ape Inc. () mobile games company with millions of installs on 4 stars games <> http://www.athinkingape.com/
-	Software Developer Engineer, Intern
-	Vancouver, BC
-	Apr -- Aug 2013
-		Given responsibility to work on on the \#1 revenue generating product of the company
-		Designed and implemented account management UI on iOS (Objective-C) and Android (Java) for new user ID system that allowed tracking the same player on multiple devices via one or more social media accounts
-		Devised new algorithm (solving a challenging graph matching problem) for matching \(\sim\)500 player teams in battle on Django (Python) backend, increasing player satisfaction over 200\% according to product manager
-		//Analyzed complexity of above graph matching problem and wrote an efficient dynamic programming solution
-[]
-	BTI Systems Inc. () cloud and metro networking company <> http://www.juniper.net/us/en/dm/bti/
-	Web Developer, Intern
-	Ottawa, ON
-	Feb -- Jun 2012
-		Created web app for manager to visualize bug statistics using jQuery and server side PHP and SQL queries
-
-{section}
-Notable Projects
-[]
-	Programming contest participation / coding interview practice
-	2011 -- 2013, 2017 -- ongoing
-		Optimal Python or C++ solutions to LeetCode Hard problems, Bloomberg CodeCon, Google Code Jam, \textit{etc.}
-//[]
-//	Grade summary web application () helpful tool for course I TAed <> https://github.com/yumichael/blackboardlearn-statsview
-//	Nov 2016
-//		Flask (Python) web app that shows grade histograms across different tutorial sections from web scraped data
-//[]
-//	Original image recognition experiment on MNIST () no success
-//	May -- Aug 2016
-//		Purely unsupervised learning of image classes through ``convolutional \(k\)-NN'' architecture with Theano
-[]
-	Raytracer 3D scene renderer \faGithub\,\faExternalLink\xspace () graduate graphics course project <> https://github.com/yumichael/raytrace
-	Apr 2016
-		Profiled with Visual Studio to identify and fix inefficiency in starter utility code to run 10\(\times\) faster 
-		Used C++ to render realistic lighting in a beautiful anti-aliased full HD image, coded in just 5 days
+\textbf{Key skills}: understanding of advanced math and computer science theory, Python, C, C++, Numpy, Pandas, XGBoost
 
 {section}
 Education
-[]
-		\textit{\$40,358 University of Toronto academic performance scholarships, \$36,500 NSERC research grant awards}
 []
 	University of Toronto
 	M.Sc. Mathematics () GRE Math Subject Test score: 900 --- 97 percentile
 	Toronto, ON
 	Sep 2016 -- Nov 2017
-		//Sample grad courses up to date: algebra, computer graphics, graph theory, topology, probability, real analysis
-		//, computability and logic, set theory. Undegraduate: algorithms, data structures.
+[]
+	H.B.Sc. Mathematics Specialist and Computer Science Major () CGPA: 3.87/4
+	Sep 2012 -- Jun 2016
+		Predicted the sign of future short term VIX price change with 62\% accuracy in M.Sc. thesis (see Projects section)
+		Received \$40,358 in academic awards and \$36,500 in NSERC research grants
+		Finished Ph.D. course requirements (5/7 courses completed as undergrad) with A+ average
+		Completed the extra Computer Science Major on top of 1 required Specialist for undergraduate degree
+
+{section}
+Experience
 []
 	University of Toronto
-	H.B.Sc. Mathematics Specialist and Computer Science Major () CGPA: 3.87/4
+	Teaching Assistant for Calculus Courses
 	Toronto, ON
-	Sep 2012 -- Jun 2016
-		Finished 5 math graduate core courses (Ph.D. requires 7) with 91.4 average in undergrad; scored 30 on Putnam
-		Took university level algo class in grade 12; took enriched level algorithms at UofT, 95 average across 3 courses
+	Sep -- Dec 2016, Sep -- Apr 2014, 2015
+		Taught tutorial classes: explaining concepts and taking up problems, creating and marking quizzes
+[]
+	University of Toronto 
+	NSERC Undergraduate Researcher <> http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp
+	Toronto, ON
+	May -- Sep 2015, Apr -- Aug 2014
+		2015 topic: representation theory of the symmetric groups and how things change when characteristic > 0
+		2014 topic: some introductory level algebraic number theory readings
+[]
+	A Thinking Ape Inc. () mobile games company with millions of installs on 4 stars games <> http://www.athinkingape.com/
+	Software Developer Engineer, Intern
+	Vancouver, BC
+	Apr -- Aug 2013
+		Full-stack development on main product in this already profitable <20 engineers start-up
+		Designed and implemented account management UI on iOS (Objective-C) and Android (Java) for new user ID system which tracked the same player on multiple devices via Facebook or email
+		Devised new algorithm for matching \(\sim\)500 player teams in battle on Django (Python) server backend
+		Collaborated with product manager to determine match metrics and created over 200\% more quality matches
+[]
+	BTI Systems Inc. () cloud and metro networking company, now acquired by Juniper Networks <> http://www.juniper.net/us/en/dm/bti/
+	Web Developer, Intern
+	Ottawa, ON
+	Feb -- Jun 2012
+		Created web application for visualizing bug statistics using jQuery backed by PHP and SQL
+
+{section}
+Projects
+[]
+	G-Research Financial Forecasting Challenge () \$30,000 prize Kaggle style data science competition
+	Feb -- Apr 2018
+		Currently 16\textsuperscript{th} / 259. First place explains 71\% of target's variance, mine explains 70\%, median explains 59\%.
+		//Researching matrix factorization techniques to generate features to improve current XGBoost model
+[]
+	Predicting short-term movement direction of the volatility index (VIX) () M.Sc. thesis
+	Jan -- Sep 2017
+		Determined feasibility of machine learning approaches and crafted various features for XGBoost in Python
+		Predicted the sign of 1--6 days return, with 55\%--65\% accuracy in specific cases, on test data of latest 2 years
+[]
+	Grade summary web application () helpful tool for course I TAed <> https://github.com/yumichael/blackboardlearn-statsview
+	Nov 2016
+		Flask (Python) web app that shows grade histograms across different tutorial sections from web scraped data
+[]
+	Raytracer 3D scene renderer () graphics course project <> https://github.com/yumichael/raytrace
+	Apr 2016
+		C++ raytracing engine that uses ``distributed ray tracing'' to render realistic lighting
+		Profiled with Visual Studio to identify and fix inefficiency in starter utility code to run 10\(\times\) faster
+[]
+	Putnam Competition () famous undergraduate level mathematics competition where the median score is 1
+	Dec 2013
+		Scored 30, which is rank 216 / \(\sim\) 4000
