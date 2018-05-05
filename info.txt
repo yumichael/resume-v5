@@ -21,7 +21,7 @@ Education
 	Sep 2012 -- Jun 2016
 		Predicted the sign of future short term VIX price change with 62\% accuracy in M.Sc. thesis (see Projects section)
 		Received \$40,358 in academic awards and \$36,500 in \href{http://www.nserc-crsng.gc.ca/index_eng.asp}{NSERC} research grants
-		Finished Ph.D. course requirements (5/7 courses completed as undergrad) with A+ average
+		Finished Math Ph.D. course requirements (5/7 courses completed as undergrad) with A+ average
 		Completed the extra Computer Science Major on top of 1 required Specialist for undergraduate degree
 
 {section}
@@ -60,7 +60,9 @@ Projects
 []
 	G-Research Financial Forecasting Challenge () \$30,000 prize Kaggle style data science competition <> https://financialforecasting.gresearch.co.uk/
 	Feb -- Apr 2018
-		Currently 16\textsuperscript{th} / 259; first place explains 71\% of target's variance, mine explains 70\%, median explains 59\%
+		Finished 15\textsuperscript{th} / 404; first place explains 43.5\% of private leaderboard's target variance, mine explains 42.0\%
+		//Engineered complete pipeline: data munging (Pandas), complex features generation, workflow code refactoring
+		Built linear and XGBoost models of near optimal score from munged per-stock principled data transforms
 		//Researching matrix factorization techniques to generate features to improve current XGBoost model
 []
 	Predicting short-term movement direction of the volatility index (VIX) () M.Sc. thesis <> https://tspace.library.utoronto.ca/bitstream/1807/79328/3/Yu_Michael_Y_201711_MSc_thesis.pdf
