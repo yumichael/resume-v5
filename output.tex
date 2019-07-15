@@ -15,7 +15,8 @@
 \titleformat{\section}{\vspace{-2pt}\Large\scshape\raggedright}{}{0em}{}[\titlerule] %
 \usepackage{enumitem}
 %\setitemize{itemsep=3pt,topsep=5pt,parsep=0pt,partopsep=0pt}
-\setitemize{itemsep=1pt,topsep=2.5pt,parsep=0pt,partopsep=0pt}
+%\setitemize{itemsep=1pt,topsep=2.5pt,parsep=0pt,partopsep=0pt}
+\setitemize{itemsep=1pt,topsep=3pt,parsep=0pt,partopsep=0pt}
 
 \newcommand*\textmb[1]{\fontseries{b}\selectfont#1\fontseries{m}\selectfont}
 \newcommand*\textul[1]{\underline{\smash{#1}}}
@@ -31,70 +32,67 @@
 \begin{center}
 {\huge\textbf{\href{https://github.com/yumichael/resume-v5}{Michael Y. Yu}}}
 
-214 Asturcon Street, Ottawa ON K2V0B1\ \ \textbullet\ \ +1 (647) 467-2357\ \ \textbullet\ \ \href{mailto:myy2357@gmail.com}{myy2357@gmail.com}
+55 River Oaks Pl. Apt 745 San Jose CA 95134\ \ \textbullet\ \ +1 (669) 235-2506\ \ \textbullet\ \ \href{mailto:myy2357@gmail.com}{myy2357@gmail.com}
 
 \href{https://www.linkedin.com/in/m2357/}{linkedin.com/in/m2357}\ \ \textbullet\ \ \href{https://github.com/yumichael}{github.com/yumichael}
 \end{center}
-\textbf{Key skills}: understanding of advanced math and computer science theory, Python, C, C++, Numpy, Pandas, XGBoost
+\textbf{Key skills}: Python, Numpy, Pandas, Matplotlib, XGBoost/LightGBM, C, C++, Javascript/Typescript, React Native
 
+\section*{Positions}
+\company{\href{https://www.intel.com/content/www/us/en/products/programmable.html}{Intel (PSG)}}\hfill\location{San Jose, CA}\\
+\position{Software Development Engineer}\hfill\timespan{Jun 2018 -- now}
+\begin{itemize}
+\item Worked with senior engineers to determine what data was needed to diagnose FPGA compiler results gap
+\item Created Python tools to process data (logs and xml) and make visualization plots to diagnose those issues
+\item Wrote hooks in C++ codebase to dump needed data and fixed various bugs
+\end{itemize}
+\company{\href{http://www.athinkingape.com/}{A Thinking Ape}} (Y Combinator backed social-mobile games company; millions of installs)\hfill\location{Vancouver, BC}\\
+\position{Software Developer Engineer, Intern}\hfill\timespan{Apr -- Aug 2013}
+\begin{itemize}
+\item Full-stack development on main product line of games at profitable <20 engineers start-up
+\item Designed and implemented account management UI on iOS and Android for new user ID system which tracked the same player on multiple devices via Facebook or email
+\item Devised new algorithm for matching \(\sim\)500 player teams in battle on Django server backend
+\item Collaborated with product manager to determine match metrics and created over 200\% more quality matches
+\end{itemize}
+\company{\href{http://www.juniper.net/us/en/dm/bti/}{BTI Systems}} (cloud and metro networking company, now acquired by Juniper Networks)\hfill\location{Ottawa, ON}\\
+\position{Web Developer, Intern}\hfill\timespan{Feb -- Jun 2012}
+\begin{itemize}
+\item Created web application for visualizing bug statistics using jQuery backed by PHP and SQL
+\end{itemize}
+\section*{Projects}
+\position{\href{https://github.com/yumichael/avalon}{The Resistance game React Native mobile app}}\hfill\timespan{Mar 2019 -- now}
+\begin{itemize}
+\item Simplified real-time player interactions (including chat) implementation using Firebase and reactive pattern
+\item Maintained codebase health with React best practices, state abstractions using MobX, and custom React hooks
+\end{itemize}
+\position{\href{https://www.kaggle.com/c/two-sigma-financial-news/overview}{Two Sigma Kaggle Competition}}\hfill\timespan{Sep 2018 -- Jan 2019 (results in Aug 2019)}
+\begin{itemize}
+\item Built key based feature generation management system so experimental features can be turned off on the fly
+\item Invented a DSL to describe a probability distribution of features from which to sample and cross-validate on
+\end{itemize}
+\position{\href{https://financialforecasting.gresearch.co.uk/}{G-Research Financial Forecasting Challenge}} (\$30,000 prize Kaggle style data science competition)\hfill\timespan{Feb -- Apr 2018}
+\begin{itemize}
+\item Finished 15\textsuperscript{th} / 404; first place explains 43.5\% of private leaderboard's target variance, mine explains 42.0\%
+\item Invented a greedy linear model for picking out good features which needed Numba JIT speedup
+\item Wrote weighted versions of stats functions and MultiIndexing/reshaping utility code that Pandas was missing
+\end{itemize}
+\position{\href{https://github.com/yumichael/raytrace}{Raytracer 3D scene renderer}}\hfill\timespan{Apr 2016}
+\begin{itemize}
+\item C++ raytracing engine that uses ``distributed ray tracing'' to render realistic lighting
+\item Profiled with Visual Studio to identify a caching opportunity in starter matrix utility code to run 10\(\times\) faster
+\end{itemize}
+\position{Putnam Competition}\hfill\timespan{Dec 2013}
+\begin{itemize}
+\item Scored 30, which is rank 216 / \(\sim\) 4000
+\end{itemize}
 \section*{Education}
 \company{\href{https://www.utoronto.ca/}{University of Toronto}}\hfill\location{Toronto, ON}\\
 \position{M.Sc. Mathematics} (GRE Mathematics Subject Test score: 900 --- 97 percentile)\hfill\timespan{Sep 2016 -- Nov 2017}
 \\
 \position{H.B.Sc. \href{http://calendar.artsci.utoronto.ca/crs_mat.htm\#ASSPE1165}{Mathematics Specialist} and Computer Science Major} (CGPA: 3.87/4)\hfill\timespan{Sep 2012 -- Jun 2016}
 \begin{itemize}
-\item Predicted the sign of future short term VIX price change with 62\% accuracy in M.Sc. thesis (see Projects section)
 \item Received \$40,358 in academic awards and \$36,500 in \href{http://www.nserc-crsng.gc.ca/index_eng.asp}{NSERC} research grants
 \item Finished Math Ph.D. course requirements (5/7 courses completed as undergrad) with A+ average
-\item Completed the extra Computer Science Major on top of 1 required Specialist for undergraduate degree
-\end{itemize}
-\section*{Experience}
-\company{University of Toronto}\hfill\location{Toronto, ON}\\
-\position{Teaching Assistant for Calculus Courses}\hfill\timespan{Sep -- Dec 2016, Sep -- Apr 2014, 2015}
-\begin{itemize}
-\item Taught tutorial classes: explaining concepts and taking up problems, creating and marking quizzes
-\end{itemize}
-\company{University of Toronto}\hfill\location{Toronto, ON}\\
-\position{\href{http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp}{NSERC Undergraduate Researcher}}\hfill\timespan{May -- Sep 2015, Apr -- Aug 2014}
-\begin{itemize}
-\item 2015 topic: representation theory of the symmetric groups and how things change when characteristic > 0
-\item 2014 topic: some introductory level algebraic number theory readings
-\end{itemize}
-\company{\href{http://www.athinkingape.com/}{A Thinking Ape Inc.}} (Y Combinator backed social-mobile games company; millions of installs)\hfill\location{Vancouver, BC}\\
-\position{Software Developer Engineer, Intern}\hfill\timespan{Apr -- Aug 2013}
-\begin{itemize}
-\item Full-stack development on main product line of games at this already profitable <20 engineers start-up
-\item Designed and implemented account management UI on iOS (Objective-C) and Android (Java) for new user ID system which tracked the same player on multiple devices via Facebook or email
-\item Devised new algorithm for matching \(\sim\)500 player teams in battle on Django (Python) server backend
-\item Collaborated with product manager to determine match metrics and created over 200\% more quality matches
-\end{itemize}
-\company{\href{http://www.juniper.net/us/en/dm/bti/}{BTI Systems Inc.}} (cloud and metro networking company, now acquired by Juniper Networks)\hfill\location{Ottawa, ON}\\
-\position{Web Developer, Intern}\hfill\timespan{Feb -- Jun 2012}
-\begin{itemize}
-\item Created web application for visualizing bug statistics using jQuery backed by PHP and SQL
-\end{itemize}
-\section*{Projects}
-\position{\href{https://financialforecasting.gresearch.co.uk/}{G-Research Financial Forecasting Challenge}} (\$30,000 prize Kaggle style data science competition)\hfill\timespan{Feb -- Apr 2018}
-\begin{itemize}
-\item Finished 15\textsuperscript{th} / 404; first place explains 43.5\% of private leaderboard's target variance, mine explains 42.0\%
-\item Built linear and XGBoost models of near optimal score from munged per-stock principled data transforms
-\end{itemize}
-\position{\href{https://tspace.library.utoronto.ca/bitstream/1807/79328/3/Yu_Michael_Y_201711_MSc_thesis.pdf}{Predicting short-term movement direction of the volatility index (VIX)}} (M.Sc. thesis)\hfill\timespan{Jan -- Sep 2017}
-\begin{itemize}
-\item Determined feasibility of machine learning approaches and crafted various features for XGBoost in Python
-\item Predicted the sign of 1--6 days return, with 55\%--65\% accuracy in specific cases, on test data of latest 2 years
-\end{itemize}
-\position{\href{https://github.com/yumichael/blackboardlearn-statsview}{Grade summary web application}} (helpful tool for course I TAed)\hfill\timespan{Nov 2016}
-\begin{itemize}
-\item Flask (Python) web app that shows grade histograms across different tutorial sections from web scraped data
-\end{itemize}
-\position{\href{https://github.com/yumichael/raytrace}{Raytracer 3D scene renderer}} (graphics course project)\hfill\timespan{Apr 2016}
-\begin{itemize}
-\item C++ raytracing engine that uses ``distributed ray tracing'' to render realistic lighting
-\item Profiled with Visual Studio to identify a caching opportunity in starter matrix utility code to run 10\(\times\) faster
-\end{itemize}
-\position{Putnam Competition} (famous undergraduate level mathematics competition where the median score is 1)\hfill\timespan{Dec 2013}
-\begin{itemize}
-\item Scored 30, which is rank 216 / \(\sim\) 4000
+\item Only one Specialist or two Majors is required for H.B.Sc degree completion
 \end{itemize}
 \end{document}
