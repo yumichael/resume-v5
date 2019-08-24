@@ -16,9 +16,15 @@
 \usepackage{enumitem}
 %\setitemize{itemsep=3pt,topsep=5pt,parsep=0pt,partopsep=0pt}
 %\setitemize{itemsep=1pt,topsep=2.5pt,parsep=0pt,partopsep=0pt}
-\setitemize{itemsep=1pt,topsep=3pt,parsep=0pt,partopsep=0pt}
+%\setitemize{itemsep=1pt,topsep=3pt,parsep=0pt,partopsep=0pt} % 2019 SWE
+%\setitemize{itemsep=1.2pt,topsep=3.6pt,parsep=0pt,partopsep=0pt} % 2019 quant
+\setitemize{itemsep=1pt,topsep=2.5pt,parsep=0pt,partopsep=0pt} % 2019 quant
 
-\newcommand*\textmb[1]{\fontseries{b}\selectfont#1\fontseries{m}\selectfont}
+\usepackage[outline]{contour}
+\contourlength{0.1pt}
+\contournumber{1}
+%\newcommand*\textmb[1]{\fontseries{b}\selectfont#1\fontseries{m}\selectfont}
+\newcommand*\textmb[1]{\contour{black}{#1}}
 \newcommand*\textul[1]{\underline{\smash{#1}}}
 
 \newcommand*\company[1]{\textbf{#1}}
@@ -26,6 +32,7 @@
 \newcommand*\location\company
 \newcommand*\timespan\position
 \newcommand*\kw\textit
+\newcommand*\lead\textul
 
 \begin{document}
 \pagestyle{empty}
@@ -36,23 +43,23 @@
 
 \href{https://www.linkedin.com/in/m2357/}{linkedin.com/in/m2357}\ \ \textbullet\ \ \href{https://github.com/yumichael}{github.com/yumichael}
 \end{center}
-\textbf{Key skills}: Python, Numpy, Pandas, Matplotlib, XGBoost/LightGBM, C, C++, Javascript/Typescript, React Native
+\lead{Key Skills}: Python, Numpy, Pandas, Matplotlib, XGBoost/LightGBM, C, C++, Javascript, Typescript, React Native
 
 \section*{Positions}
 \company{\href{https://www.intel.com/content/www/us/en/products/programmable.html}{Intel (PSG)}}\hfill\location{San Jose, CA}\\
 \position{Software Development Engineer}\hfill\timespan{Jun 2018 -- now}
 \begin{itemize}
-\item Worked with senior engineers to determine what data was needed to diagnose FPGA compiler results gap
-\item Created Python tools to process data (logs and xml) and make visualization plots to diagnose those issues
-\item Wrote hooks in C++ codebase to dump needed data and fixed various bugs
+\item Worked with principal engineers to determine what data was needed to diagnose FPGA compiler results gap
+\item Created Python tools to process data (logs and XML) and make visualization plots to diagnose those issues
+\item Made sense of unspecified columns of data with exploratory Pandas scripts and cleaned data to be usable
+\item Wrote hooks in main C++ codebase to dump needed data and fixed various customer reported bugs
 \end{itemize}
 \company{\href{http://www.athinkingape.com/}{A Thinking Ape}} (Y Combinator backed social-mobile games company; millions of installs)\hfill\location{Vancouver, BC}\\
 \position{Software Developer Engineer, Intern}\hfill\timespan{Apr -- Aug 2013}
 \begin{itemize}
 \item Full-stack development on main product line of games at profitable <20 engineers start-up
 \item Designed and implemented account management UI on iOS and Android for new user ID system which tracked the same player on multiple devices via Facebook or email
-\item Devised new algorithm for matching \(\sim\)500 player teams in battle on Django server backend
-\item Collaborated with product manager to determine match metrics and created over 200\% more quality matches
+\item Collaborated with PM and wrote new algorithm for matching player teams in battle on Django server backend
 \end{itemize}
 \company{\href{http://www.juniper.net/us/en/dm/bti/}{BTI Systems}} (cloud and metro networking company, now acquired by Juniper Networks)\hfill\location{Ottawa, ON}\\
 \position{Web Developer, Intern}\hfill\timespan{Feb -- Jun 2012}
@@ -63,27 +70,28 @@
 \position{\href{https://github.com/yumichael/avalon}{The Resistance game React Native mobile app}}\hfill\timespan{Mar 2019 -- now}
 \begin{itemize}
 \item Simplified real-time player interactions (including chat) implementation using Firebase and reactive pattern
-\item Maintained codebase health with React best practices, state abstractions using MobX, and custom React hooks
+\item Maintained codebase health with modular design, React and MobX best practices, and custom React hooks
 \end{itemize}
-\position{\href{https://www.kaggle.com/c/two-sigma-financial-news/overview}{Two Sigma Kaggle Competition}}\hfill\timespan{Sep 2018 -- Jan 2019 (results in Aug 2019)}
+\position{\href{https://www.kaggle.com/c/two-sigma-financial-news/overview}{Two Sigma Kaggle Competition}}\hfill\timespan{Sep 2018 -- Jan 2019}
 \begin{itemize}
-\item Built key based feature generation management system so experimental features can be turned off on the fly
+\item Placed 237\textsuperscript{th} / 2927 (Bronze Medal)
+\item Optimized ML workflow, \textit{e.g.} built dependency graph feature management system to improve turnover time
 \item Invented a DSL to describe a probability distribution of features from which to sample and cross-validate on
 \end{itemize}
-\position{\href{https://financialforecasting.gresearch.co.uk/}{G-Research Financial Forecasting Challenge}} (\$30,000 prize Kaggle style data science competition)\hfill\timespan{Feb -- Apr 2018}
+\position{\href{https://financialforecasting.gresearch.co.uk/}{G-Research Financial Forecasting Challenge}} (\$30k prize Kaggle style competition)\hfill\timespan{Feb -- Apr 2018}
 \begin{itemize}
 \item Finished 15\textsuperscript{th} / 404; first place explains 43.5\% of private leaderboard's target variance, mine explains 42.0\%
-\item Invented a greedy linear model for picking out good features which needed Numba JIT speedup
+\item Invented a greedy linear model for feature set selection and used Numba JIT to attain tractable run-time
 \item Wrote weighted versions of stats functions and MultiIndexing/reshaping utility code that Pandas was missing
 \end{itemize}
-\position{\href{https://github.com/yumichael/raytrace}{Raytracer 3D scene renderer}}\hfill\timespan{Apr 2016}
+\position{\href{https://github.com/yumichael/raytrace}{Raytracer 3D Scene Renderer}}\hfill\timespan{Apr 2016}
 \begin{itemize}
 \item C++ raytracing engine that uses ``distributed ray tracing'' to render realistic lighting
 \item Profiled with Visual Studio to identify a caching opportunity in starter matrix utility code to run 10\(\times\) faster
 \end{itemize}
 \position{Putnam Competition}\hfill\timespan{Dec 2013}
 \begin{itemize}
-\item Scored 30, which is rank 216 / \(\sim\) 4000
+\item Was selected as part of university team of 3 people for school ranking and scored 30, which is rank 216 / \(\sim\) 4000
 \end{itemize}
 \section*{Education}
 \company{\href{https://www.utoronto.ca/}{University of Toronto}}\hfill\location{Toronto, ON}\\
@@ -91,7 +99,7 @@
 \\
 \position{H.B.Sc. \href{http://calendar.artsci.utoronto.ca/crs_mat.htm\#ASSPE1165}{Mathematics Specialist} and Computer Science Major} (CGPA: 3.87/4)\hfill\timespan{Sep 2012 -- Jun 2016}
 \begin{itemize}
-\item Received \$40,358 in academic awards and \$36,500 in \href{http://www.nserc-crsng.gc.ca/index_eng.asp}{NSERC} research grants
+\item Received \$40,358 in academic awards and \$36,500 in government research grants
 \item Finished Math Ph.D. course requirements (5/7 courses completed as undergrad) with A+ average
 \item Only one Specialist or two Majors is required for H.B.Sc degree completion
 \end{itemize}

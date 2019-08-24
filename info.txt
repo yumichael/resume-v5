@@ -7,7 +7,7 @@ Michael Y. Yu <> https://github.com/yumichael/resume-v5
 	github.com/yumichael <> https://github.com/yumichael
 
 {float}
-\textbf{Key skills}: Python, Numpy, Pandas, Matplotlib, XGBoost/LightGBM, C, C++, Javascript/Typescript, React Native
+\lead{Key Skills}: Python, Numpy, Pandas, Matplotlib, XGBoost/LightGBM, C, C++, Javascript, Typescript, React Native
 
 {section}
 Positions
@@ -16,9 +16,10 @@ Positions
 	Software Development Engineer
 	San Jose, CA
 	Jun 2018 -- now
-		Worked with senior engineers to determine what data was needed to diagnose FPGA compiler results gap
-		Created Python tools to process data (logs and xml) and make visualization plots to diagnose those issues
-		Wrote hooks in C++ codebase to dump needed data and fixed various bugs
+		Worked with principal engineers to determine what data was needed to diagnose FPGA compiler results gap
+		Created Python tools to process data (logs and XML) and make visualization plots to diagnose those issues
+		Made sense of unspecified columns of data with exploratory Pandas scripts and cleaned data to be usable
+		Wrote hooks in main C++ codebase to dump needed data and fixed various customer reported bugs
 []
 	A Thinking Ape () Y Combinator backed social-mobile games company; millions of installs <> http://www.athinkingape.com/
 	Software Developer Engineer, Intern
@@ -26,8 +27,7 @@ Positions
 	Apr -- Aug 2013
 		Full-stack development on main product line of games at profitable <20 engineers start-up
 		Designed and implemented account management UI on iOS and Android for new user ID system which tracked the same player on multiple devices via Facebook or email
-		Devised new algorithm for matching \(\sim\)500 player teams in battle on Django server backend
-		Collaborated with product manager to determine match metrics and created over 200\% more quality matches
+		Collaborated with PM and wrote new algorithm for matching player teams in battle on Django server backend
 []
 	BTI Systems () cloud and metro networking company, now acquired by Juniper Networks <> http://www.juniper.net/us/en/dm/bti/
 	Web Developer, Intern
@@ -41,30 +41,31 @@ Projects
 	The Resistance game React Native mobile app <> https://github.com/yumichael/avalon
 	Mar 2019 -- now
 		Simplified real-time player interactions (including chat) implementation using Firebase and reactive pattern
-		Maintained codebase health with React best practices, state abstractions using MobX, and custom React hooks
+		Maintained codebase health with modular design, React and MobX best practices, and custom React hooks
 []
 	Two Sigma Kaggle Competition <> https://www.kaggle.com/c/two-sigma-financial-news/overview
-	Sep 2018 -- Jan 2019 (results in Aug 2019)
-		Built key based feature generation management system so experimental features can be turned off on the fly
+	Sep 2018 -- Jan 2019
+		Placed 237\textsuperscript{th} / 2927 (Bronze Medal)
+		Optimized ML workflow, \textit{e.g.} built dependency graph feature management system to improve turnover time
 		Invented a DSL to describe a probability distribution of features from which to sample and cross-validate on
 []
-	G-Research Financial Forecasting Challenge () \$30,000 prize Kaggle style data science competition <> https://financialforecasting.gresearch.co.uk/
+	G-Research Financial Forecasting Challenge () \$30k prize Kaggle style competition <> https://financialforecasting.gresearch.co.uk/
 	Feb -- Apr 2018
 		Finished 15\textsuperscript{th} / 404; first place explains 43.5\% of private leaderboard's target variance, mine explains 42.0\%
 		//Engineered complete pipeline: data munging (Pandas), complex features generation, workflow code refactoring
 		//Built linear and XGBoost models of near optimal score from munged per-stock principled data transforms
 		//Researching matrix factorization techniques to generate features to improve current XGBoost model
-		Invented a greedy linear model for picking out good features which needed Numba JIT speedup
+		Invented a greedy linear model for feature set selection and used Numba JIT to attain tractable run-time
 		Wrote weighted versions of stats functions and MultiIndexing/reshaping utility code that Pandas was missing
 []
-	Raytracer 3D scene renderer <> https://github.com/yumichael/raytrace
+	Raytracer 3D Scene Renderer <> https://github.com/yumichael/raytrace
 	Apr 2016
 		C++ raytracing engine that uses ``distributed ray tracing'' to render realistic lighting
 		Profiled with Visual Studio to identify a caching opportunity in starter matrix utility code to run 10\(\times\) faster
 []
 	Putnam Competition
 	Dec 2013
-		Scored 30, which is rank 216 / \(\sim\) 4000
+		Was selected as part of university team of 3 people for school ranking and scored 30, which is rank 216 / \(\sim\) 4000
 
 {section}
 Education
@@ -77,6 +78,6 @@ Education
 	H.B.Sc. \href{http://calendar.artsci.utoronto.ca/crs_mat.htm\#ASSPE1165}{Mathematics Specialist} and Computer Science Major () CGPA: 3.87/4
 	Sep 2012 -- Jun 2016
 		//Predicted the sign of future short term VIX price change with 62\% accuracy in M.Sc. thesis (see Projects section)
-		Received \$40,358 in academic awards and \$36,500 in \href{http://www.nserc-crsng.gc.ca/index_eng.asp}{NSERC} research grants
+		Received \$40,358 in academic awards and \$36,500 in government research grants
 		Finished Math Ph.D. course requirements (5/7 courses completed as undergrad) with A+ average
 		Only one Specialist or two Majors is required for H.B.Sc degree completion
